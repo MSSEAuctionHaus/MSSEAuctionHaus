@@ -126,9 +126,12 @@
     </div>
 
 
+    
                 <!--L-7: The detail page for the listing allows a new bid to be placed (unit test of the controller action that handles this requirement)-->
+    <g:if test="${session?.user}">
     <g:if test="${listingInstance.seller.toString()!= session?.user.toString()}">
         <g:render template="addBids"/>
+    </g:if>
     </g:if>
 
 </g:if>
