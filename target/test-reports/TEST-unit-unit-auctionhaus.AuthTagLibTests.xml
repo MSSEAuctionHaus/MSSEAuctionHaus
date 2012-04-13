@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="ujjwal-PC" name="auctionhaus.AuthTagLibTests" tests="1" time="2.72" timestamp="2012-04-13T16:50:27">
+<testsuite errors="0" failures="0" hostname="ujjwal-PC" name="auctionhaus.AuthTagLibTests" tests="1" time="2.913" timestamp="2012-04-13T20:30:07">
   <properties />
-  <testcase classname="auctionhaus.AuthTagLibTests" name="testSomething" time="2.305" />
+  <testcase classname="auctionhaus.AuthTagLibTests" name="testSomething" time="2.531" />
   <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
   <system-err><![CDATA[--Output from testSomething--

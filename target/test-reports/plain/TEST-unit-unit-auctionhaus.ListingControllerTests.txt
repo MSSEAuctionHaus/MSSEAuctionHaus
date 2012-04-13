@@ -1,22 +1,22 @@
 Testsuite: auctionhaus.ListingControllerTests
-Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 4.902 sec
+Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 4.592 sec
 ------------- Standard Output ---------------
---Output from testFlashAddBidSuccessful--
---Output from testFlashAddBidFail--
---Output from testInvalidAddBids--
-default.unsuccessful.bid.submitted--Output from testAddBids--
---Output from testIndex--
-------------- ---------------- ---------------
-------------- Standard Error -----------------
---Output from testFlashAddBidSuccessful--
---Output from testFlashAddBidFail--
---Output from testInvalidAddBids--
 --Output from testAddBids--
 --Output from testIndex--
+--Output from testInvalidAddBids--
+default.unsuccessful.bid.submitted--Output from testFlashAddBidSuccessful--
+--Output from testFlashAddBidFail--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testAddBids--
+--Output from testIndex--
+--Output from testInvalidAddBids--
+--Output from testFlashAddBidSuccessful--
+--Output from testFlashAddBidFail--
 ------------- ---------------- ---------------
 
-Testcase: testFlashAddBidSuccessful took 0.41 sec
-Testcase: testFlashAddBidFail took 2.749 sec
-Testcase: testInvalidAddBids took 1.186 sec
-Testcase: testAddBids took 0.239 sec
-Testcase: testIndex took 0.211 sec
+Testcase: testAddBids took 0.748 sec
+Testcase: testIndex took 0.099 sec
+Testcase: testInvalidAddBids took 2.262 sec
+Testcase: testFlashAddBidSuccessful took 0.353 sec
+Testcase: testFlashAddBidFail took 1.018 sec

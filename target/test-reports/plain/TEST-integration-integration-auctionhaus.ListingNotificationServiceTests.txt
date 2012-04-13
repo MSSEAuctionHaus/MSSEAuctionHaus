@@ -1,13 +1,7 @@
 Testsuite: auctionhaus.ListingNotificationServiceTests
-Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 1.216 sec
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 1.745 sec
 ------------- Standard Output ---------------
 --Output from testListingEndedSendEmail_usingGreenMail--
-Listing ended call for Orange
-sendListingEndedEmailToWinner for Orange
-complete sendListingEndedEmailToWinner for Orange
-sendListingEndedEmailToSeller for Orange
-complete sendListingEndedEmailToWinner for Orange
---Output from testListingEndedSendEmail--
 Listing ended call for Orange
 sendListingEndedEmailToWinner for Orange
 complete sendListingEndedEmailToWinner for Orange
@@ -19,13 +13,18 @@ sendListingEndedJMS for Cup
 completed sendListingJMS for: cup
 sendListingEndedJMS for Mug
 completed sendListingJMS for: mug
+--Output from testListingEndedSendEmail--
+Listing ended call for Orange
+sendListingEndedEmailToWinner for Orange
+exception: groovy.lang.MissingMethodException: No signature of method: auctionhaus.ListingNotificationService.sendMail() is applicable for argument types: (auctionhaus.ListingNotificationService$_sendListingEndedEmailToWinner_closure2) values: [auctionhaus.ListingNotificationService$_sendListingEndedEmailToWinner_closure2@3d33f3cf]
+Possible solutions: findAll()
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
 --Output from testListingEndedSendEmail_usingGreenMail--
---Output from testListingEndedSendEmail--
 --Output from testListingEndedSendJMS--
+--Output from testListingEndedSendEmail--
 ------------- ---------------- ---------------
 
-Testcase: testListingEndedSendEmail_usingGreenMail took 0.58 sec
-Testcase: testListingEndedSendEmail took 0.167 sec
-Testcase: testListingEndedSendJMS took 0.461 sec
+Testcase: testListingEndedSendEmail_usingGreenMail took 0.522 sec
+Testcase: testListingEndedSendJMS took 0.845 sec
+Testcase: testListingEndedSendEmail took 0.357 sec

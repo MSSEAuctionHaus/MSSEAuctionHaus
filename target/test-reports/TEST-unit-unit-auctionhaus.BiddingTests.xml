@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="ujjwal-PC" name="auctionhaus.BiddingTests" tests="5" time="1.82" timestamp="2012-04-13T16:50:30">
+<testsuite errors="0" failures="0" hostname="ujjwal-PC" name="auctionhaus.BiddingTests" tests="5" time="1.42" timestamp="2012-04-13T20:30:09">
   <properties />
-  <testcase classname="auctionhaus.BiddingTests" name="testBidsAreRequiredToHaveABidder" time="0.929" />
-  <testcase classname="auctionhaus.BiddingTests" name="testBidsAreRequiredToBeForListing" time="0.051" />
-  <testcase classname="auctionhaus.BiddingTests" name="testDateCreatedIsAssigned" time="0.05" />
-  <testcase classname="auctionhaus.BiddingTests" name="testAmountIsRequired" time="0.081" />
-  <testcase classname="auctionhaus.BiddingTests" name="testListingHasListOfBids" time="0.352" />
-  <system-out><![CDATA[--Output from testBidsAreRequiredToHaveABidder--
---Output from testBidsAreRequiredToBeForListing--
---Output from testDateCreatedIsAssigned--
---Output from testAmountIsRequired--
+  <testcase classname="auctionhaus.BiddingTests" name="testDateCreatedIsAssigned" time="0.849" />
+  <testcase classname="auctionhaus.BiddingTests" name="testListingHasListOfBids" time="0.297" />
+  <testcase classname="auctionhaus.BiddingTests" name="testAmountIsRequired" time="0.067" />
+  <testcase classname="auctionhaus.BiddingTests" name="testBidsAreRequiredToHaveABidder" time="0.045" />
+  <testcase classname="auctionhaus.BiddingTests" name="testBidsAreRequiredToBeForListing" time="0.043" />
+  <system-out><![CDATA[--Output from testDateCreatedIsAssigned--
 --Output from testListingHasListOfBids--
+--Output from testAmountIsRequired--
+--Output from testBidsAreRequiredToHaveABidder--
+--Output from testBidsAreRequiredToBeForListing--
 ]]></system-out>
-  <system-err><![CDATA[--Output from testBidsAreRequiredToHaveABidder--
---Output from testBidsAreRequiredToBeForListing--
---Output from testDateCreatedIsAssigned--
---Output from testAmountIsRequired--
+  <system-err><![CDATA[--Output from testDateCreatedIsAssigned--
 --Output from testListingHasListOfBids--
+--Output from testAmountIsRequired--
+--Output from testBidsAreRequiredToHaveABidder--
+--Output from testBidsAreRequiredToBeForListing--
 ]]></system-err>
 </testsuite>

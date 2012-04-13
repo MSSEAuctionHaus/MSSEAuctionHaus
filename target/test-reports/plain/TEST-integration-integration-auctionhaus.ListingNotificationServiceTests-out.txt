@@ -4,15 +4,14 @@ sendListingEndedEmailToWinner for Orange
 complete sendListingEndedEmailToWinner for Orange
 sendListingEndedEmailToSeller for Orange
 complete sendListingEndedEmailToWinner for Orange
---Output from testListingEndedSendEmail--
-Listing ended call for Orange
-sendListingEndedEmailToWinner for Orange
-complete sendListingEndedEmailToWinner for Orange
-sendListingEndedEmailToSeller for Orange
-complete sendListingEndedEmailToWinner for Orange
 --Output from testListingEndedSendJMS--
 Get all expired listing
 sendListingEndedJMS for Cup
 completed sendListingJMS for: cup
 sendListingEndedJMS for Mug
 completed sendListingJMS for: mug
+--Output from testListingEndedSendEmail--
+Listing ended call for Orange
+sendListingEndedEmailToWinner for Orange
+exception: groovy.lang.MissingMethodException: No signature of method: auctionhaus.ListingNotificationService.sendMail() is applicable for argument types: (auctionhaus.ListingNotificationService$_sendListingEndedEmailToWinner_closure2) values: [auctionhaus.ListingNotificationService$_sendListingEndedEmailToWinner_closure2@3d33f3cf]
+Possible solutions: findAll()

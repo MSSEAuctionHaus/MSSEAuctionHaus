@@ -51,17 +51,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">testListingEndedSendEmail_usingGreenMail</b>
 </p>
-<p class="summary">Executed in 0.58 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testListingEndedSendEmail">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testListingEndedSendEmail</b>
-</p>
-<p class="summary">Executed in 0.167 seconds.</p>
+<p class="summary">Executed in 0.522 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -71,7 +61,17 @@
 <p>
 <span class="icon success"></span><b class="testname message success">testListingEndedSendJMS</b>
 </p>
-<p class="summary">Executed in 0.461 seconds.</p>
+<p class="summary">Executed in 0.845 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testListingEndedSendEmail">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testListingEndedSendEmail</b>
+</p>
+<p class="summary">Executed in 0.357 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -85,25 +85,24 @@ sendListingEndedEmailToWinner for Orange
 complete sendListingEndedEmailToWinner for Orange
 sendListingEndedEmailToSeller for Orange
 complete sendListingEndedEmailToWinner for Orange
---Output from testListingEndedSendEmail--
-Listing ended call for Orange
-sendListingEndedEmailToWinner for Orange
-complete sendListingEndedEmailToWinner for Orange
-sendListingEndedEmailToSeller for Orange
-complete sendListingEndedEmailToWinner for Orange
 --Output from testListingEndedSendJMS--
 Get all expired listing
 sendListingEndedJMS for Cup
 completed sendListingJMS for: cup
 sendListingEndedJMS for Mug
 completed sendListingJMS for: mug
+--Output from testListingEndedSendEmail--
+Listing ended call for Orange
+sendListingEndedEmailToWinner for Orange
+exception: groovy.lang.MissingMethodException: No signature of method: auctionhaus.ListingNotificationService.sendMail() is applicable for argument types: (auctionhaus.ListingNotificationService$_sendListingEndedEmailToWinner_closure2) values: [auctionhaus.ListingNotificationService$_sendListingEndedEmailToWinner_closure2@3d33f3cf]
+Possible solutions: findAll()
 </pre>
 </div>
 <div class="syserr">
 <h2>System error</h2>
 <pre class="syserr">--Output from testListingEndedSendEmail_usingGreenMail--
---Output from testListingEndedSendEmail--
 --Output from testListingEndedSendJMS--
+--Output from testListingEndedSendEmail--
 </pre>
 </div>
 </div>

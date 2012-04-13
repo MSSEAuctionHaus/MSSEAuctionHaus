@@ -1,8 +1,8 @@
 --Output from testLengthOfDescriptionTooLong--
---Output from testNameIsRequired--
---Output from testNameIsNotBlank--
 --Output from testLengthOfNameTooLong--
 --Output from testLengthOfNameOK--
+--Output from testNameIsNotBlank--
+--Output from testNameIsRequired--
 --Output from testDateNotNull--
 --Output from testDateIsInFuture--
 --Output from testPriceStartedIsRequired--

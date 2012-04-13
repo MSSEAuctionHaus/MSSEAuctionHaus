@@ -1,5 +1,5 @@
---Output from testFlashAddBidSuccessful--
---Output from testFlashAddBidFail--
---Output from testInvalidAddBids--
-default.unsuccessful.bid.submitted--Output from testAddBids--
+--Output from testAddBids--
 --Output from testIndex--
+--Output from testInvalidAddBids--
+default.unsuccessful.bid.submitted--Output from testFlashAddBidSuccessful--
+--Output from testFlashAddBidFail--

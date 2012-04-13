@@ -1,5 +1,5 @@
+--Output from testDateCreatedIsAssigned--
+--Output from testListingHasListOfBids--
+--Output from testAmountIsRequired--
 --Output from testBidsAreRequiredToHaveABidder--
 --Output from testBidsAreRequiredToBeForListing--
---Output from testDateCreatedIsAssigned--
---Output from testAmountIsRequired--
---Output from testListingHasListOfBids--

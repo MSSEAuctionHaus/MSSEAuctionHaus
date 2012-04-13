@@ -1,5 +1,5 @@
 Testsuite: auctionhaus.CustomerIntegrationTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.085 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.072 sec
 ------------- Standard Output ---------------
 --Output from testEmailIsUnique--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.085 sec
 --Output from testEmailIsUnique--
 ------------- ---------------- ---------------
 
-Testcase: testEmailIsUnique took 0.056 sec
+Testcase: testEmailIsUnique took 0.04 sec

@@ -1,5 +1,5 @@
 Testsuite: auctionhaus.CustomerServiceTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.18 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.215 sec
 ------------- Standard Output ---------------
 --Output from testaddNewCustomer--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.18 sec
 --Output from testaddNewCustomer--
 ------------- ---------------- ---------------
 
-Testcase: testaddNewCustomer took 0.137 sec
+Testcase: testaddNewCustomer took 0.155 sec

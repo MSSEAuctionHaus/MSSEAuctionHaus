@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="ujjwal-PC" name="auctionhaus.CustomerIntegrationTests" tests="1" time="0.085" timestamp="2012-04-13T16:51:04">
+<testsuite errors="0" failures="0" hostname="ujjwal-PC" name="auctionhaus.CustomerIntegrationTests" tests="1" time="0.072" timestamp="2012-04-13T20:30:46">
   <properties />
-  <testcase classname="auctionhaus.CustomerIntegrationTests" name="testEmailIsUnique" time="0.056" />
+  <testcase classname="auctionhaus.CustomerIntegrationTests" name="testEmailIsUnique" time="0.04" />
   <system-out><![CDATA[--Output from testEmailIsUnique--
 ]]></system-out>
   <system-err><![CDATA[--Output from testEmailIsUnique--

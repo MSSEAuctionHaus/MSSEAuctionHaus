@@ -1,5 +1,5 @@
---Output from testFlashAddBidSuccessful--
---Output from testFlashAddBidFail--
---Output from testInvalidAddBids--
 --Output from testAddBids--
 --Output from testIndex--
+--Output from testInvalidAddBids--
+--Output from testFlashAddBidSuccessful--
+--Output from testFlashAddBidFail--

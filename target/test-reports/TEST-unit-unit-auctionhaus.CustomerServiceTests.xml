@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="ujjwal-PC" name="auctionhaus.CustomerServiceTests" tests="1" time="0.18" timestamp="2012-04-13T16:50:35">
+<testsuite errors="0" failures="0" hostname="ujjwal-PC" name="auctionhaus.CustomerServiceTests" tests="1" time="0.215" timestamp="2012-04-13T20:30:13">
   <properties />
-  <testcase classname="auctionhaus.CustomerServiceTests" name="testaddNewCustomer" time="0.137" />
+  <testcase classname="auctionhaus.CustomerServiceTests" name="testaddNewCustomer" time="0.155" />
   <system-out><![CDATA[--Output from testaddNewCustomer--
 ]]></system-out>
   <system-err><![CDATA[--Output from testaddNewCustomer--

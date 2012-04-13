@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="ujjwal-PC" name="auctionhaus.ListingControllerTests" tests="5" time="4.902" timestamp="2012-04-13T16:50:36">
+<testsuite errors="0" failures="0" hostname="ujjwal-PC" name="auctionhaus.ListingControllerTests" tests="5" time="4.592" timestamp="2012-04-13T20:30:14">
   <properties />
-  <testcase classname="auctionhaus.ListingControllerTests" name="testFlashAddBidSuccessful" time="0.41" />
-  <testcase classname="auctionhaus.ListingControllerTests" name="testFlashAddBidFail" time="2.749" />
-  <testcase classname="auctionhaus.ListingControllerTests" name="testInvalidAddBids" time="1.186" />
-  <testcase classname="auctionhaus.ListingControllerTests" name="testAddBids" time="0.239" />
-  <testcase classname="auctionhaus.ListingControllerTests" name="testIndex" time="0.211" />
-  <system-out><![CDATA[--Output from testFlashAddBidSuccessful--
---Output from testFlashAddBidFail--
---Output from testInvalidAddBids--
-default.unsuccessful.bid.submitted--Output from testAddBids--
+  <testcase classname="auctionhaus.ListingControllerTests" name="testAddBids" time="0.748" />
+  <testcase classname="auctionhaus.ListingControllerTests" name="testIndex" time="0.099" />
+  <testcase classname="auctionhaus.ListingControllerTests" name="testInvalidAddBids" time="2.262" />
+  <testcase classname="auctionhaus.ListingControllerTests" name="testFlashAddBidSuccessful" time="0.353" />
+  <testcase classname="auctionhaus.ListingControllerTests" name="testFlashAddBidFail" time="1.018" />
+  <system-out><![CDATA[--Output from testAddBids--
 --Output from testIndex--
+--Output from testInvalidAddBids--
+default.unsuccessful.bid.submitted--Output from testFlashAddBidSuccessful--
+--Output from testFlashAddBidFail--
 ]]></system-out>
-  <system-err><![CDATA[--Output from testFlashAddBidSuccessful--
---Output from testFlashAddBidFail--
---Output from testInvalidAddBids--
---Output from testAddBids--
+  <system-err><![CDATA[--Output from testAddBids--
 --Output from testIndex--
+--Output from testInvalidAddBids--
+--Output from testFlashAddBidSuccessful--
+--Output from testFlashAddBidFail--
 ]]></system-err>
 </testsuite>

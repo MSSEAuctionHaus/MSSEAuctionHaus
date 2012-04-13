@@ -199,9 +199,17 @@ class ListingController {
         }
 
         try {
+            if (((listingInstance?.biddings == null)||
+                    (listingInstance?.biddings?.size() == 0))){
+
             listingInstance.delete(flush: true)
 			flash.message = message(code: 'default.deleted.message', args: [message(code: 'listing.label', default: 'Listing'), params.id])
             redirect(action: "list")
+            }
+            else{
+                flash.message = message(code: 'default.not.deleted.message.custom.listing', args: [message(code: 'listing.label', default: 'Listing'), params.id])
+                redirect(action: "edit", id: params.id)
+            }
         }
         catch (DataIntegrityViolationException e) {
 			flash.message = message(code: 'default.not.deleted.message', args: [message(code: 'listing.label', default: 'Listing'), params.id])

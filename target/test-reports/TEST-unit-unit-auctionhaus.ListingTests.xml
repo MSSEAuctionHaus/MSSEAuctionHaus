@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="ujjwal-PC" name="auctionhaus.ListingTests" tests="11" time="0.332" timestamp="2012-04-13T16:50:42">
+<testsuite errors="0" failures="0" hostname="ujjwal-PC" name="auctionhaus.ListingTests" tests="11" time="0.435" timestamp="2012-04-13T20:30:20">
   <properties />
-  <testcase classname="auctionhaus.ListingTests" name="testLengthOfDescriptionTooLong" time="0.049" />
-  <testcase classname="auctionhaus.ListingTests" name="testNameIsRequired" time="0.024" />
-  <testcase classname="auctionhaus.ListingTests" name="testNameIsNotBlank" time="0.022" />
-  <testcase classname="auctionhaus.ListingTests" name="testLengthOfNameTooLong" time="0.02" />
-  <testcase classname="auctionhaus.ListingTests" name="testLengthOfNameOK" time="0.022" />
-  <testcase classname="auctionhaus.ListingTests" name="testDateNotNull" time="0.019" />
-  <testcase classname="auctionhaus.ListingTests" name="testDateIsInFuture" time="0.02" />
-  <testcase classname="auctionhaus.ListingTests" name="testPriceStartedIsRequired" time="0.02" />
-  <testcase classname="auctionhaus.ListingTests" name="testPriceStartedIsValid" time="0.019" />
-  <testcase classname="auctionhaus.ListingTests" name="testSellerIsRequired" time="0.019" />
-  <testcase classname="auctionhaus.ListingTests" name="testLengthOfDescriptionOK" time="0.019" />
+  <testcase classname="auctionhaus.ListingTests" name="testLengthOfDescriptionTooLong" time="0.04" />
+  <testcase classname="auctionhaus.ListingTests" name="testLengthOfNameTooLong" time="0.024" />
+  <testcase classname="auctionhaus.ListingTests" name="testLengthOfNameOK" time="0.03" />
+  <testcase classname="auctionhaus.ListingTests" name="testNameIsNotBlank" time="0.019" />
+  <testcase classname="auctionhaus.ListingTests" name="testNameIsRequired" time="0.021" />
+  <testcase classname="auctionhaus.ListingTests" name="testDateNotNull" time="0.02" />
+  <testcase classname="auctionhaus.ListingTests" name="testDateIsInFuture" time="0.021" />
+  <testcase classname="auctionhaus.ListingTests" name="testPriceStartedIsRequired" time="0.019" />
+  <testcase classname="auctionhaus.ListingTests" name="testPriceStartedIsValid" time="0.021" />
+  <testcase classname="auctionhaus.ListingTests" name="testSellerIsRequired" time="0.104" />
+  <testcase classname="auctionhaus.ListingTests" name="testLengthOfDescriptionOK" time="0.021" />
   <system-out><![CDATA[--Output from testLengthOfDescriptionTooLong--
---Output from testNameIsRequired--
---Output from testNameIsNotBlank--
 --Output from testLengthOfNameTooLong--
 --Output from testLengthOfNameOK--
+--Output from testNameIsNotBlank--
+--Output from testNameIsRequired--
 --Output from testDateNotNull--
 --Output from testDateIsInFuture--
 --Output from testPriceStartedIsRequired--
@@ -25,10 +25,10 @@
 --Output from testLengthOfDescriptionOK--
 ]]></system-out>
   <system-err><![CDATA[--Output from testLengthOfDescriptionTooLong--
---Output from testNameIsRequired--
---Output from testNameIsNotBlank--
 --Output from testLengthOfNameTooLong--
 --Output from testLengthOfNameOK--
+--Output from testNameIsNotBlank--
+--Output from testNameIsRequired--
 --Output from testDateNotNull--
 --Output from testDateIsInFuture--
 --Output from testPriceStartedIsRequired--

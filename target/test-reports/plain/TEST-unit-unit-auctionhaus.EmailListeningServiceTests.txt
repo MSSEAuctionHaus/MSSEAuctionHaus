@@ -1,5 +1,5 @@
 Testsuite: auctionhaus.EmailListeningServiceTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.084 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.104 sec
 ------------- Standard Output ---------------
 --Output from testSomething--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.084 sec
 --Output from testSomething--
 ------------- ---------------- ---------------
 
-Testcase: testSomething took 0.029 sec
+Testcase: testSomething took 0.03 sec
