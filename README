@@ -1,0 +1,14 @@
+This is AuctionBidding site project creating for MSSE written in Groovy on Grail.
+
+----To Note---
+1. NFL Mugs will expired in 2 minutes to test listing expired. Should not be able to bid on expired listing
+2. Authentication for admin:
+     username: admin@gmail.com
+	 password: admin1
+3. Only admin can create customer
+4. Only author of the listing is able to edit their listing
+3. Quartz job scheduler is disabled
+
+
+
+

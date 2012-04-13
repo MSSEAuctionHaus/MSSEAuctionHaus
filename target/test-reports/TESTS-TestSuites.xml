@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="ujjwal-PC" id="0" name="BiddingIntegrationTests" package="auctionhaus" tests="3" time="0.844" timestamp="2012-04-13T04:45:35">
+      <properties />
+
+      <testcase classname="auctionhaus.BiddingIntegrationTests" name="testBidAmountIsFiftyCentHigherThanPreviousBid" time="0.307" />
+
+      <testcase classname="auctionhaus.BiddingIntegrationTests" name="testBiddingIsSavedWhenListingIsSaved" time="0.362" />
+
+      <testcase classname="auctionhaus.BiddingIntegrationTests" name="testBidsAboutListingNamedQuery" time="0.16" />
+
+      <system-out><![CDATA[--Output from testBidAmountIsFiftyCentHigherThanPreviousBid--
+--Output from testBiddingIsSavedWhenListingIsSaved--
+--Output from testBidsAboutListingNamedQuery--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testBidAmountIsFiftyCentHigherThanPreviousBid--
+--Output from testBiddingIsSavedWhenListingIsSaved--
+--Output from testBidsAboutListingNamedQuery--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ujjwal-PC" id="1" name="CustomerIntegrationTests" package="auctionhaus" tests="1" time="0.07" timestamp="2012-04-13T04:45:35">
+      <properties />
+
+      <testcase classname="auctionhaus.CustomerIntegrationTests" name="testEmailIsUnique" time="0.04" />
+
+      <system-out><![CDATA[--Output from testEmailIsUnique--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testEmailIsUnique--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ujjwal-PC" id="2" name="ListingNotificationServiceTests" package="auctionhaus" tests="3" time="3.882" timestamp="2012-04-13T04:45:36">
+      <properties />
+
+      <testcase classname="auctionhaus.ListingNotificationServiceTests" name="testListingEndedSendEmail_usingGreenMail" time="0.528" />
+
+      <testcase classname="auctionhaus.ListingNotificationServiceTests" name="testListingEndedSendEmail" time="0.279" />
+
+      <testcase classname="auctionhaus.ListingNotificationServiceTests" name="testListingEndedSendJMS" time="3.062" />
+
+      <system-out><![CDATA[--Output from testListingEndedSendEmail_usingGreenMail--
+Listing ended call for Orange
+sendListingEndedEmailToWinner for Orange
+complete sendListingEndedEmailToWinner for Orange
+sendListingEndedEmailToSeller for Orange
+complete sendListingEndedEmailToWinner for Orange
+--Output from testListingEndedSendEmail--
+Listing ended call for Orange
+sendListingEndedEmailToWinner for Orange
+exception: groovy.lang.MissingMethodException: No signature of method: auctionhaus.ListingNotificationService.sendMail() is applicable for argument types: (auctionhaus.ListingNotificationService$_sendListingEndedEmailToWinner_closure2) values: [auctionhaus.ListingNotificationService$_sendListingEndedEmailToWinner_closure2@310b1ff]
+Possible solutions: findAll()
+--Output from testListingEndedSendJMS--
+Get all expired listing
+sendListingEndedJMS for Cup
+completed sendListingJMS for: cup
+sendListingEndedJMS for Mug
+completed sendListingJMS for: mug
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testListingEndedSendEmail_usingGreenMail--
+--Output from testListingEndedSendEmail--
+--Output from testListingEndedSendJMS--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ujjwal-PC" id="3" name="AuthTagLibTests" package="auctionhaus" tests="1" time="2.853" timestamp="2012-04-13T04:45:00">
+      <properties />
+
+      <testcase classname="auctionhaus.AuthTagLibTests" name="testSomething" time="2.08" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ujjwal-PC" id="4" name="BiddingTests" package="auctionhaus" tests="5" time="1.81" timestamp="2012-04-13T04:45:03">
+      <properties />
+
+      <testcase classname="auctionhaus.BiddingTests" name="testBidsAreRequiredToBeForListing" time="1.066" />
+
+      <testcase classname="auctionhaus.BiddingTests" name="testBidsAreRequiredToHaveABidder" time="0.059" />
+
+      <testcase classname="auctionhaus.BiddingTests" name="testListingHasListOfBids" time="0.417" />
+
+      <testcase classname="auctionhaus.BiddingTests" name="testDateCreatedIsAssigned" time="0.048" />
+
+      <testcase classname="auctionhaus.BiddingTests" name="testAmountIsRequired" time="0.049" />
+
+      <system-out><![CDATA[--Output from testBidsAreRequiredToBeForListing--
+--Output from testBidsAreRequiredToHaveABidder--
+--Output from testListingHasListOfBids--
+--Output from testDateCreatedIsAssigned--
+--Output from testAmountIsRequired--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testBidsAreRequiredToBeForListing--
+--Output from testBidsAreRequiredToHaveABidder--
+--Output from testListingHasListOfBids--
+--Output from testDateCreatedIsAssigned--
+--Output from testAmountIsRequired--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ujjwal-PC" id="5" name="CustomerControllerTests" package="auctionhaus" tests="1" time="2.536" timestamp="2012-04-13T04:45:05">
+      <properties />
+
+      <testcase classname="auctionhaus.CustomerControllerTests" name="testDelete" time="2.47" />
+
+      <system-out><![CDATA[--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ujjwal-PC" id="6" name="CustomerServiceTests" package="auctionhaus" tests="1" time="0.405" timestamp="2012-04-13T04:45:08">
+      <properties />
+
+      <testcase classname="auctionhaus.CustomerServiceTests" name="testaddNewCustomer" time="0.322" />
+
+      <system-out><![CDATA[--Output from testaddNewCustomer--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testaddNewCustomer--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ujjwal-PC" id="7" name="CustomerTests" package="auctionhaus" tests="7" time="0.92" timestamp="2012-04-13T04:45:08">
+      <properties />
+
+      <testcase classname="auctionhaus.CustomerTests" name="testPasswordIsBetweenRightSize" time="0.061" />
+
+      <testcase classname="auctionhaus.CustomerTests" name="testPasswordIsRequired" time="0.085" />
+
+      <testcase classname="auctionhaus.CustomerTests" name="testEmailIsRequired" time="0.175" />
+
+      <testcase classname="auctionhaus.CustomerTests" name="testDateCreatedIsRequired" time="0.064" />
+
+      <testcase classname="auctionhaus.CustomerTests" name="testPasswordIsBelowMax" time="0.289" />
+
+      <testcase classname="auctionhaus.CustomerTests" name="testPasswordIsAboveMin" time="0.067" />
+
+      <testcase classname="auctionhaus.CustomerTests" name="testEmailIsValid" time="0.061" />
+
+      <system-out><![CDATA[--Output from testPasswordIsBetweenRightSize--
+--Output from testPasswordIsRequired--
+--Output from testEmailIsRequired--
+--Output from testDateCreatedIsRequired--
+--Output from testPasswordIsBelowMax--
+--Output from testPasswordIsAboveMin--
+--Output from testEmailIsValid--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testPasswordIsBetweenRightSize--
+--Output from testPasswordIsRequired--
+--Output from testEmailIsRequired--
+--Output from testDateCreatedIsRequired--
+--Output from testPasswordIsBelowMax--
+--Output from testPasswordIsAboveMin--
+--Output from testEmailIsValid--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ujjwal-PC" id="8" name="ListingControllerTests" package="auctionhaus" tests="5" time="4.791" timestamp="2012-04-13T04:45:09">
+      <properties />
+
+      <testcase classname="auctionhaus.ListingControllerTests" name="testIndex" time="0.276" />
+
+      <testcase classname="auctionhaus.ListingControllerTests" name="testAddBids" time="0.469" />
+
+      <testcase classname="auctionhaus.ListingControllerTests" name="testFlashAddBidFail" time="2.329" />
+
+      <testcase classname="auctionhaus.ListingControllerTests" name="testFlashAddBidSuccessful" time="0.184" />
+
+      <testcase classname="auctionhaus.ListingControllerTests" name="testInvalidAddBids" time="1.363" />
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testAddBids--
+--Output from testFlashAddBidFail--
+--Output from testFlashAddBidSuccessful--
+--Output from testInvalidAddBids--
+default.unsuccessful.bid.submitted]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testAddBids--
+--Output from testFlashAddBidFail--
+--Output from testFlashAddBidSuccessful--
+--Output from testInvalidAddBids--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ujjwal-PC" id="9" name="ListingServiceTests" package="auctionhaus" tests="3" time="0.512" timestamp="2012-04-13T04:45:14">
+      <properties />
+
+      <testcase classname="auctionhaus.ListingServiceTests" name="testaddBidToListing_Fail_WhenListingExpired" time="0.229" />
+
+      <testcase classname="auctionhaus.ListingServiceTests" name="testaddBidToListing" time="0.14" />
+
+      <testcase classname="auctionhaus.ListingServiceTests" name="testaddNewListing" time="0.091" />
+
+      <system-out><![CDATA[--Output from testaddBidToListing_Fail_WhenListingExpired--
+--Output from testaddBidToListing--
+--Output from testaddNewListing--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testaddBidToListing_Fail_WhenListingExpired--
+--Output from testaddBidToListing--
+--Output from testaddNewListing--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ujjwal-PC" id="10" name="ListingTests" package="auctionhaus" tests="11" time="0.484" timestamp="2012-04-13T04:45:14">
+      <properties />
+
+      <testcase classname="auctionhaus.ListingTests" name="testLengthOfDescriptionTooLong" time="0.038" />
+
+      <testcase classname="auctionhaus.ListingTests" name="testNameIsRequired" time="0.022" />
+
+      <testcase classname="auctionhaus.ListingTests" name="testNameIsNotBlank" time="0.02" />
+
+      <testcase classname="auctionhaus.ListingTests" name="testLengthOfNameTooLong" time="0.037" />
+
+      <testcase classname="auctionhaus.ListingTests" name="testLengthOfNameOK" time="0.02" />
+
+      <testcase classname="auctionhaus.ListingTests" name="testDateNotNull" time="0.022" />
+
+      <testcase classname="auctionhaus.ListingTests" name="testDateIsInFuture" time="0.09" />
+
+      <testcase classname="auctionhaus.ListingTests" name="testPriceStartedIsRequired" time="0.049" />
+
+      <testcase classname="auctionhaus.ListingTests" name="testPriceStartedIsValid" time="0.02" />
+
+      <testcase classname="auctionhaus.ListingTests" name="testSellerIsRequired" time="0.021" />
+
+      <testcase classname="auctionhaus.ListingTests" name="testLengthOfDescriptionOK" time="0.02" />
+
+      <system-out><![CDATA[--Output from testLengthOfDescriptionTooLong--
+--Output from testNameIsRequired--
+--Output from testNameIsNotBlank--
+--Output from testLengthOfNameTooLong--
+--Output from testLengthOfNameOK--
+--Output from testDateNotNull--
+--Output from testDateIsInFuture--
+--Output from testPriceStartedIsRequired--
+--Output from testPriceStartedIsValid--
+--Output from testSellerIsRequired--
+--Output from testLengthOfDescriptionOK--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testLengthOfDescriptionTooLong--
+--Output from testNameIsRequired--
+--Output from testNameIsNotBlank--
+--Output from testLengthOfNameTooLong--
+--Output from testLengthOfNameOK--
+--Output from testDateNotNull--
+--Output from testDateIsInFuture--
+--Output from testPriceStartedIsRequired--
+--Output from testPriceStartedIsValid--
+--Output from testSellerIsRequired--
+--Output from testLengthOfDescriptionOK--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
