@@ -1,0 +1,10 @@
+Testsuite: auctionhaus.CustomerControllerTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 3.048 sec
+------------- Standard Output ---------------
+--Output from testDelete--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testDelete--
+------------- ---------------- ---------------
+
+Testcase: testDelete took 2.988 sec

@@ -1,8 +1,7 @@
 package auctionhaus
 
-import grails.converters.deep.JSON;
-import grails.converters.deep.XML;
-import grails.plugin.mail.MailService;
+import grails.converters.deep.JSON
+import grails.plugin.mail.MailService
 
 import org.apache.activemq.ActiveMQConnectionFactory
 

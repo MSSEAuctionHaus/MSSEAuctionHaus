@@ -6,6 +6,7 @@ import grails.test.mixin.TestFor
 import grails.test.mixin.Mock
 import grails.converters.deep.JSON
 import com.icegreen.greenmail.util.*
+import groovy.json.JsonSlurper
 
 
 @TestFor(ListingNotificationService)
@@ -14,6 +15,8 @@ class ListingNotificationServiceTests {
     def jmsService
     def mailService
     def greenMail
+    String listingEndedQueue = "queue.listingended";
+
 
 
     void testListingEndedSendJMS() {
@@ -42,6 +45,7 @@ class ListingNotificationServiceTests {
         def srv = new ListingNotificationService()
         srv.jmsService = jmsService
         srv.listingEndedJMS()
+
         assert true == listing1.notificationSent
         assert true == listing2.notificationSent
         assert false == listing3.notificationSent

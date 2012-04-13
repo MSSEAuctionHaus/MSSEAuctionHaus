@@ -1,0 +1,16 @@
+Testsuite: auctionhaus.ListingServiceTests
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 1.281 sec
+------------- Standard Output ---------------
+--Output from testaddBidToListing_Fail_WhenListingExpired--
+--Output from testaddBidToListing--
+--Output from testaddNewListing--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testaddBidToListing_Fail_WhenListingExpired--
+--Output from testaddBidToListing--
+--Output from testaddNewListing--
+------------- ---------------- ---------------
+
+Testcase: testaddBidToListing_Fail_WhenListingExpired took 0.775 sec
+Testcase: testaddBidToListing took 0.122 sec
+Testcase: testaddNewListing took 0.075 sec

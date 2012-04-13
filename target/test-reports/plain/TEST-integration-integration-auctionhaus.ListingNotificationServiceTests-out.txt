@@ -1,0 +1,18 @@
+--Output from testListingEndedSendEmail_usingGreenMail--
+Listing ended call for Orange
+sendListingEndedEmailToWinner for Orange
+complete sendListingEndedEmailToWinner for Orange
+sendListingEndedEmailToSeller for Orange
+complete sendListingEndedEmailToWinner for Orange
+--Output from testListingEndedSendEmail--
+Listing ended call for Orange
+sendListingEndedEmailToWinner for Orange
+complete sendListingEndedEmailToWinner for Orange
+sendListingEndedEmailToSeller for Orange
+complete sendListingEndedEmailToWinner for Orange
+--Output from testListingEndedSendJMS--
+Get all expired listing
+sendListingEndedJMS for Cup
+completed sendListingJMS for: cup
+sendListingEndedJMS for Mug
+completed sendListingJMS for: mug

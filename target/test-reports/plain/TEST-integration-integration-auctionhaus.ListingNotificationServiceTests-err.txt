@@ -1,0 +1,3 @@
+--Output from testListingEndedSendEmail_usingGreenMail--
+--Output from testListingEndedSendEmail--
+--Output from testListingEndedSendJMS--

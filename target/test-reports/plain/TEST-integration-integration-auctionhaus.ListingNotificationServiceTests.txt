@@ -1,0 +1,31 @@
+Testsuite: auctionhaus.ListingNotificationServiceTests
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 1.216 sec
+------------- Standard Output ---------------
+--Output from testListingEndedSendEmail_usingGreenMail--
+Listing ended call for Orange
+sendListingEndedEmailToWinner for Orange
+complete sendListingEndedEmailToWinner for Orange
+sendListingEndedEmailToSeller for Orange
+complete sendListingEndedEmailToWinner for Orange
+--Output from testListingEndedSendEmail--
+Listing ended call for Orange
+sendListingEndedEmailToWinner for Orange
+complete sendListingEndedEmailToWinner for Orange
+sendListingEndedEmailToSeller for Orange
+complete sendListingEndedEmailToWinner for Orange
+--Output from testListingEndedSendJMS--
+Get all expired listing
+sendListingEndedJMS for Cup
+completed sendListingJMS for: cup
+sendListingEndedJMS for Mug
+completed sendListingJMS for: mug
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testListingEndedSendEmail_usingGreenMail--
+--Output from testListingEndedSendEmail--
+--Output from testListingEndedSendJMS--
+------------- ---------------- ---------------
+
+Testcase: testListingEndedSendEmail_usingGreenMail took 0.58 sec
+Testcase: testListingEndedSendEmail took 0.167 sec
+Testcase: testListingEndedSendJMS took 0.461 sec

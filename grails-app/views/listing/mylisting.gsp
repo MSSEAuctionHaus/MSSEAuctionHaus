@@ -39,7 +39,7 @@
         <tbody>
         <g:each in="${listingInstanceList}" status="i" var="listingInstance">
             <tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
-                <td valign="top" class="value">${fieldValue(bean: listingInstance, field: "name")}</td>
+                <td><g:link action="show" id="${listingInstance.id}">${fieldValue(bean: listingInstance, field: "name")}</g:link></td>
                 <td>${listingInstance?.biddings.size()}</td>
                 <td><g:formatDate date="${listingInstance.dateEnded}" /></td>
                 <td>${fieldValue(bean: listingInstance, field: "priceStarted")}</td>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="ujjwal-PC" name="auctionhaus.BiddingIntegrationTests" tests="3" time="0.789" timestamp="2012-04-13T16:51:03">
+  <properties />
+  <testcase classname="auctionhaus.BiddingIntegrationTests" name="testBiddingIsSavedWhenListingIsSaved" time="0.525" />
+  <testcase classname="auctionhaus.BiddingIntegrationTests" name="testBidAmountIsFiftyCentHigherThanPreviousBid" time="0.077" />
+  <testcase classname="auctionhaus.BiddingIntegrationTests" name="testBidsAboutListingNamedQuery" time="0.164" />
+  <system-out><![CDATA[--Output from testBiddingIsSavedWhenListingIsSaved--
+--Output from testBidAmountIsFiftyCentHigherThanPreviousBid--
+--Output from testBidsAboutListingNamedQuery--
+]]></system-out>
+  <system-err><![CDATA[--Output from testBiddingIsSavedWhenListingIsSaved--
+--Output from testBidAmountIsFiftyCentHigherThanPreviousBid--
+--Output from testBidsAboutListingNamedQuery--
+]]></system-err>
+</testsuite>

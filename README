@@ -8,6 +8,7 @@ This is AuctionBidding site project creating for MSSE written in Groovy on Grail
 3. Only admin can create customer
 4. Only author of the listing is able to edit their listing
 3. Quartz job scheduler is disabled
+4. Bidder, who is not seller is not shown bidding screen.
 
 
 

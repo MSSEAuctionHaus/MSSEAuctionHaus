@@ -38,7 +38,7 @@ class Bidding {
         bidder(Validator:
                 {val, obj ->
                     if (obj.listing)
-                        obj.listing.seller == !val
+                         val != obj.listing.seller
                 })
 
         /*B-2: Bids are required to be for a Listing (unit test). Instance of Bid can not have Nullable listings and bidders*/

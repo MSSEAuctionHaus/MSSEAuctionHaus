@@ -1,0 +1,7 @@
+--Output from testPasswordIsBetweenRightSize--
+--Output from testPasswordIsRequired--
+--Output from testEmailIsRequired--
+--Output from testDateCreatedIsRequired--
+--Output from testPasswordIsBelowMax--
+--Output from testPasswordIsAboveMin--
+--Output from testEmailIsValid--

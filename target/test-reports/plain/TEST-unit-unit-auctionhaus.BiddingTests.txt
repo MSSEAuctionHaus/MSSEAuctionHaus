@@ -1,0 +1,22 @@
+Testsuite: auctionhaus.BiddingTests
+Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 1.82 sec
+------------- Standard Output ---------------
+--Output from testBidsAreRequiredToHaveABidder--
+--Output from testBidsAreRequiredToBeForListing--
+--Output from testDateCreatedIsAssigned--
+--Output from testAmountIsRequired--
+--Output from testListingHasListOfBids--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testBidsAreRequiredToHaveABidder--
+--Output from testBidsAreRequiredToBeForListing--
+--Output from testDateCreatedIsAssigned--
+--Output from testAmountIsRequired--
+--Output from testListingHasListOfBids--
+------------- ---------------- ---------------
+
+Testcase: testBidsAreRequiredToHaveABidder took 0.929 sec
+Testcase: testBidsAreRequiredToBeForListing took 0.051 sec
+Testcase: testDateCreatedIsAssigned took 0.05 sec
+Testcase: testAmountIsRequired took 0.081 sec
+Testcase: testListingHasListOfBids took 0.353 sec

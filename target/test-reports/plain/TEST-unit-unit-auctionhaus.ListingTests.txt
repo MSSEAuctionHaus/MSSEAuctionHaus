@@ -1,0 +1,40 @@
+Testsuite: auctionhaus.ListingTests
+Tests run: 11, Failures: 0, Errors: 0, Time elapsed: 0.332 sec
+------------- Standard Output ---------------
+--Output from testLengthOfDescriptionTooLong--
+--Output from testNameIsRequired--
+--Output from testNameIsNotBlank--
+--Output from testLengthOfNameTooLong--
+--Output from testLengthOfNameOK--
+--Output from testDateNotNull--
+--Output from testDateIsInFuture--
+--Output from testPriceStartedIsRequired--
+--Output from testPriceStartedIsValid--
+--Output from testSellerIsRequired--
+--Output from testLengthOfDescriptionOK--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testLengthOfDescriptionTooLong--
+--Output from testNameIsRequired--
+--Output from testNameIsNotBlank--
+--Output from testLengthOfNameTooLong--
+--Output from testLengthOfNameOK--
+--Output from testDateNotNull--
+--Output from testDateIsInFuture--
+--Output from testPriceStartedIsRequired--
+--Output from testPriceStartedIsValid--
+--Output from testSellerIsRequired--
+--Output from testLengthOfDescriptionOK--
+------------- ---------------- ---------------
+
+Testcase: testLengthOfDescriptionTooLong took 0.049 sec
+Testcase: testNameIsRequired took 0.024 sec
+Testcase: testNameIsNotBlank took 0.022 sec
+Testcase: testLengthOfNameTooLong took 0.02 sec
+Testcase: testLengthOfNameOK took 0.022 sec
+Testcase: testDateNotNull took 0.019 sec
+Testcase: testDateIsInFuture took 0.02 sec
+Testcase: testPriceStartedIsRequired took 0.02 sec
+Testcase: testPriceStartedIsValid took 0.019 sec
+Testcase: testSellerIsRequired took 0.019 sec
+Testcase: testLengthOfDescriptionOK took 0.019 sec

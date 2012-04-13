@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="ujjwal-PC" name="auctionhaus.ListingServiceTests" tests="3" time="1.281" timestamp="2012-04-13T16:50:40">
+  <properties />
+  <testcase classname="auctionhaus.ListingServiceTests" name="testaddBidToListing_Fail_WhenListingExpired" time="0.775" />
+  <testcase classname="auctionhaus.ListingServiceTests" name="testaddBidToListing" time="0.122" />
+  <testcase classname="auctionhaus.ListingServiceTests" name="testaddNewListing" time="0.075" />
+  <system-out><![CDATA[--Output from testaddBidToListing_Fail_WhenListingExpired--
+--Output from testaddBidToListing--
+--Output from testaddNewListing--
+]]></system-out>
+  <system-err><![CDATA[--Output from testaddBidToListing_Fail_WhenListingExpired--
+--Output from testaddBidToListing--
+--Output from testaddNewListing--
+]]></system-err>
+</testsuite>

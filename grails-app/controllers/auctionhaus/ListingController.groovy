@@ -130,7 +130,7 @@ class ListingController {
 
         try{
             listingService.createNewListing(listingInstance)
-            flash.message = message(code: 'default.created.message', args: [message(code: 'customer.label', default: 'Customer'), customerInstance.id])
+            flash.message = message(code: 'default.created.message', args: [message(code: 'listing.label', default: 'Listing'), listingInstance.id])
             redirect(action: "mylisting", id: listingInstance.id)
         }catch(Exception e){
             flash.message =  message(code: 'default.create.listing.error', args: [message(code: 'listing.label', default: 'Listing'), params.id])
